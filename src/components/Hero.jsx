@@ -12,7 +12,7 @@ export default function Hero (){
                 <h1 className=" text-2xl md:text-5xl font-bold text-gray-800 mb-2">
                     I’m Dianna Adams
                 </h1>
-                <h3 className=" text-md md:text-4xl font-semibold text-[black] mb-4">
+                <h3 className=" text-md md:text-2xl font-semibold text-[black] mb-4">
                     Food Critic / Influencer / Blogger
                 </h3>
                 <p className="text-gray-600 mb-6 text-md md:text-xl">
