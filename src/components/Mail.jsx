@@ -9,7 +9,7 @@ export default function Mail(){
           />
             </div>
         <div className="w-full md:w-1/2 md:pl-12 ">
-            <h2 className="text-2xl md:text-6xl font-semibold text-gray-700">Join Mailing List</h2>
+            <h2 className="text-2xl md:text-5xl font-semibold text-gray-700">Join Mailing List</h2>
             <p className="text-gray-600 my-4 md:text-xl">
                 Sign up and get all the latest, ad-free reviews, recipes and news sent to your inbox.
             </p>

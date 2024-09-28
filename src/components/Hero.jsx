@@ -9,7 +9,7 @@ export default function Hero (){
             <div className="border-t border-[#C99484] w-[3vw] "></div>
             <span className="mx-4 text-[#C99484]">Welcome</span>
         </div>
-                <h1 className=" text-2xl md:text-6xl font-bold text-gray-800 mb-2">
+                <h1 className=" text-2xl md:text-5xl font-bold text-gray-800 mb-2">
                     I’m Dianna Adams
                 </h1>
                 <h3 className=" text-md md:text-4xl font-semibold text-[black] mb-4">
