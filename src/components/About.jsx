@@ -30,7 +30,7 @@ function About() {
                 Diam urna ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam rhoncus, mollis arcu pharetra quis duis morbi a nunc diam mauris ut tortor.
                 </p>
                
-                <div className="flex mt-10  md:mt-[10vw] space-x-8 md:space-x-24">
+                <div className="flex mt-10  md:mt-[10vw] space-x-8 md:space-x-16">
                     <div className="text-center">
                         <FaYoutube className="text-[#be7c68] text-4xl md:text-5xl mx-auto mb-2" />
                         <h3 className="font-semibold text-lg text-[black] md:text-4xl">1.2M+</h3>
@@ -54,7 +54,7 @@ function About() {
                     alt="Dianna Adams"
                     className="shadow-lg"
                     width={'90%'}
-                    height={552}
+                    height={500}
                 />
             </div>
         </div>
