@@ -1,4 +1,6 @@
 import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { Link } from "react-router-dom";
+
 export default function DeskTopNav (){
 
     return (
@@ -7,7 +9,7 @@ export default function DeskTopNav (){
             <p  className="text-9xl font-bold text-[#be7c68]">
                 <img
                     alt="Food Blogger & Influencer"
-                    className="w-32 h-auto lg:w-25 lg:h-auto" // Adjust the width here for larger size
+                    className="w-32 h-auto lg:w-25 lg:h-auto" 
                     src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
                     height={34}
                     width={64}
@@ -18,15 +20,35 @@ export default function DeskTopNav (){
                 <nav className="flex space-x-4">
                     <p
                         key="home"
-                        className="text-sm md:text-lg font-extrabold font-mono text-[#BE7C68] hover:text-[#191970] uppercase"
+                        className="text-sm md:text-lg font-extrabold font-mono uppercase text-black hover:text-[#be7c68] cursor-pointer"
                         
                     >
+                        <Link to={`/`}>
                         Home
+                        </Link>
                     </p>
-                    {['About', 'Reviews', 'Videos', 'Contact'].map((item) => (
+                    <p
+                        key="About"
+                        className="text-sm md:text-lg font-extrabold font-mono uppercase text-black hover:text-[#be7c68] cursor-pointer"
+                        
+                    >
+                        <Link to={`/About`}>
+                        About
+                        </Link>
+                    </p>
+                    <p
+                        key="Contact"
+                        className="text-sm md:text-lg font-extrabold font-mono uppercase text-black hover:text-[#be7c68] cursor-pointer"
+                        
+                    >
+                        <Link to={`/Contact`}>
+                        Contact
+                        </Link>
+                    </p>
+                    {[ 'Reviews', 'Videos'].map((item) => (
                         <p
                             key={item}
-                            className=" text-sm md:text-lg  font-bold font-mono text-[#131516] hover:text-[#191970] uppercase"
+                            className="text-sm md:text-lg font-extrabold font-mono uppercase text-black hover:text-[#be7c68] cursor-pointer"
                             
                         >
                             {item}
