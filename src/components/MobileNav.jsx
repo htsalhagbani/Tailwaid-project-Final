@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 export default function MobileNav (){
@@ -22,11 +23,11 @@ export default function MobileNav (){
 
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-white text-center text-lg flex flex-col items-center justify-center space-y-8">
-          <p  className="hover:text-gray-500">Home</p>
-          <p  className="hover:text-gray-500">About</p>
+          <p  className="hover:text-gray-500">  <Link to={`/`}>Home</Link></p>
+          <p  className="hover:text-gray-500"><Link to={`/About`}>About</Link></p>
           <p  className="hover:text-gray-500">Reviews</p>
           <p  className="hover:text-gray-500">Videos</p>
-          <p  className="hover:text-gray-500">Contact</p>
+          <p  className="hover:text-gray-500"><Link to={`/Contact`}>Contact</Link></p>
         </div>
       )}
     </div>
