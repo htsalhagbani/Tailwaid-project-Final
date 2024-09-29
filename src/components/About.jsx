@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import MobileNav from "./MobileNav"
 import DeskTopNav from "./DeskTopNav"
 import Aboutimg from '../assets/about.jpg'
+import Card2 from './Card2'
 
 import {  FaInstagram, FaWifi, FaYoutube } from 'react-icons/fa'
 
@@ -74,7 +75,19 @@ function About() {
                  
                     <Featured></Featured>
 
-                   
+                    <div className=" w-full md:w-[90vw] mx-auto py-16 px-4 md:mt-[5vw]">
+                  <h2 className="text-3xl md:text-6xl font-bold  text-gray-700 mb-8">Follow along</h2>
+               
+                  <div className=" grid grid-cols-1 md:grid-cols-6 gap-2 ">
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-1.jpg' />
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-2.jpg' />
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-3.jpg' />
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-4.jpg' />
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-5.jpg' />
+                  <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-6.jpg' />
+
+                    </div>
+                    </div>
                   </div>
                 </div>
               </article>
